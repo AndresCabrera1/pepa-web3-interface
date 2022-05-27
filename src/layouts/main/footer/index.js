@@ -29,9 +29,9 @@ const Footer = () => {
                     align={{ base: "center", md: "center" }}
                 >
                     <Text>
-                        © {new Date().getFullYear()} Original designs by
-                        <Link ml={1} href="https://twitter.com/pablostanley">
-                            Pablo Stanley 🎨
+                        © {new Date().getFullYear()} Original by
+                        <Link ml={1} href="http://localhost:3000/">
+                            pepa crypto marketplace
                         </Link>
                     </Text>
                 </Container>

@@ -10,9 +10,9 @@ import {
     Heading,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import NavLink from "./nav-link/navlink";
-import Footer from "./footer/footer";
-import WalletData from "./wallet-data/walletdata";
+import NavLink from "./nav-link";
+import Footer from "./footer";
+import WalletData from "./wallet-data";
 
 const Links = [
     {
@@ -20,8 +20,8 @@ const Links = [
         to: "/",
     },
     {
-        name: "Punks",
-        to: "/punks",
+        name: "PepaCrypto",
+        to: "/Pepa",
     },
 ];
 
@@ -60,7 +60,7 @@ const MainLayout = ({ children }) => {
                         <Flex alignItems="center">
                             <Image src="./images/platzi.svg" width="80px" />
                             <Heading size="md" color="purple" mt={0.2} ml={1}>
-                                Punks
+                                Pep@ Crypto
                             </Heading>
                         </Flex>
                         <HStack
